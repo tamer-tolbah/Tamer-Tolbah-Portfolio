@@ -1,0 +1,45 @@
+@font-face{
+  font-family: Lemon-Milk-light;
+  src: url(fonts/LemonMilklight.otf)}
+  
+@font-face{
+    font-family: LemonMilk;
+    src: url(fonts/LemonMilk.otf)}
+
+#page-width {margin:auto;padding:5px;max-width:1100px}
+h1 {font-family:Lemon-Milk-light;letter-spacing:2px}
+p {font-family:'Gill Sans MT'}
+ul, a {text-transform:uppercase; text-decoration:none}
+a:link {color:black}
+a:hover {color:gray !important}
+a:visited {color:rgb(54, 54, 54);}
+a:active {color:darkgray;}
+p {text-transform:capitalize}
+li {
+    display:inline;
+    font-weight:bold;
+    margin:40px;
+    font-family:'Gill Sans MT';
+    letter-spacing:1px}
+#TopNavBar a {float:right;font-size:14px;padding-left:40px}
+#logo-dark {position:fixed; width:40px; padding-right:5px;top:15px }
+#main-body {
+    background-color:rgba(255,0,0,0.5);
+    max-width:90%;
+    margin:auto;
+    padding:50px;
+    text-align:center;
+    color:white}
+#about {
+    margin:auto;
+    color:rgb(54, 54, 54) ;
+    background-color:white;
+    padding:15px 5px;
+    width:120px;font-size:14px;
+    font-weight:bold;
+    font-family:'Gill Sans MT'}
+#second-head {
+    color:rgb(54, 54, 54);
+    font-family:LemonMilk;
+    letter-spacing:3px;
+    font-size:30px;text-align:center;}

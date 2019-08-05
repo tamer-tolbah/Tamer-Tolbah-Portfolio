@@ -1,0 +1,66 @@
+*{color:aliceblue;font-size:35px;font-style:italic;line-height:40px}
+.heads {color:gold; text-shadow:1px 1px 3px black; font-style:oblique; font-size:50px; text-decoration:underline}
+#Home {
+  font-size:70px;
+  line-height:140px;
+  word-spacing:30px;
+  letter-spacing: 15px;
+  color:white;
+  text-align:center;text-shadow: gold 2px 2px 5px;
+  margin-top:5px
+}
+body {background-color:rgb(48, 47, 47)}
+li button {
+  text-decoration:none;
+  font-style:italic;
+  color:gold; 
+  font-size:30px; 
+  display:block; 
+  padding:10px;
+  background-color:inherit;
+  width:100%;
+  border:none;
+  cursor:pointer;
+  transition: 0.2s;
+}
+li button:hover {background:gold; color:rgb(48, 47, 47);}
+li button.active {background:goldenrod;color:aliceblue;text-shadow:2px 2px 3px black}
+.tabcontent {
+  display:none; 
+  animation:fadeEffect 1s;
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+#leftTab {
+  display:inline-block ; 
+  width:20%; 
+  margin:0 ;
+  padding:0;
+  position:fixed;
+  height:100%;
+  border-right:2px solid darkgray;
+  border-right-style:ridge ;
+  top:0;
+  z-index:1;
+  overflow:auto}
+#leftTab li {border-bottom:2px solid darkgray;;text-align:center;list-style-type:none;}
+#leftTab ul {margin:0; padding:0;}
+h2 {text-shadow: 1px 1px 3px gold}
+#myimg {
+  width:250px;
+  position:relative;
+  float:right;
+  margin-right:30px;
+  margin-top:20px;
+  border:2px solid white;
+  border-style:inset;border-radius:25px 0;
+  box-shadow: 5px 5px 5px black}
+body {margin:auto}
+#PageContent {margin-left:20%; padding-left:15px;line-height:35px;word-spacing:5px; letter-spacing:2px;}
+#Contacts table {width:100%;font-size:5px;}
+#Contacts table td {font-size:20px;max-width:15px;height:100px}
+td {text-align:center}
+#MyDes img {margin:auto; margin-top:25px; border:2px solid gold; border-radius:10px;display:block;}
+#MyProj a {display:block; line-height:50px}

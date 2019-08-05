@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tamer Tolbah Portfolio</title>
+<link rel="stylesheet" type="text/css" href="My Homepage style.css">
+<link rel="icon" href="images\Tamer.ico" />
+</head>
+<body>
+    <div id="leftTab">
+        <ul>
+            <li><button class="tablinks" onclick="showContent(event, 'Home')" id="defaultOpen">Home</button></li>
+            <li><button class="tablinks" onclick="showContent(event, 'about')">About</button></li>
+            <li><button class="tablinks" onclick="showContent(event, 'EDU')">Education</button></li>
+            <li><button class="tablinks" onclick="showContent(event, 'CompuSkills')">Computer Skills</button></li>
+            <li><button class="tablinks" onclick="showContent(event, 'EXP')">Experience</button></li>
+            <li><button class="tablinks" onclick="showContent(event, 'OtherSkills')">Other Skills</button></li>
+            <li><button class="tablinks" onclick="showContent(event, 'MyDes')">My Designes</button></li>
+            <li><button class="tablinks" onclick="showContent(event, 'Study')">Current Study</button></li>
+            <li><button class="tablinks" onclick="showContent(event, 'MyProj')">My Projects</button></li>
+            <li><button class="tablinks" onclick="showContent(event, 'Contacts')">Contacts</button></li>
+        </ul>
+        <script src="My Homepage JS.js"></script>
+    </div>
+
+    <div id="PageContent">
+        <div id="Home" class="tabcontent">
+            <h1 id="Home">WELCOME<br>TO<br>TAMER TOLBAH <br>PORTFOLIO</h1>
+        
+        </div>
+    
+        <div id="about" class="tabcontent">
+            <img id="myimg" src="images\Tamer 2013.jpg";/>
+            <h1 class="heads">Personal Information</h1>
+            <p>Full Name: Tamer Tolbah Hassanin</p>
+            <p>Date of Birth: 1/10/1978</p>
+            <p>Marital Status: Married </p>
+            <p>Military Service: Exempted</p>
+        
+        </div>
+    
+        <div id="EDU" class="tabcontent">
+            <h1 class="heads">Education</h1>
+            <p> University: Ain Shams University</p>
+            <p>Faculty: Graduated from Faculty of Arts - Mass Media Section</p>
+            <p>Graduated Year: 2000/2001</p>
+        </div>
+    
+        <div id="CompuSkills" class="tabcontent">
+            <H1 class="heads">Computer Skills</H1>
+            <ul>
+                <li>A + Certified Professional</li>
+                <li>MCP ( Microsoft Certified Professional )</li>
+                <li>ICDL ( International Computer Driving License )</li>
+                <li>MCSA ( Microsoft Certified System Administrator )</li>
+            </ul>
+        </div>
+
+        <div id="EXP" class="tabcontent">
+            <H1 class="heads">Experiences</H1>
+            <ul>
+                <li>IBM training for 300 Hours</li>
+                <li>Worked at "Misr Learn" as Technical Support for 1 year</li>
+                <li>Worked as Technical support and network administrator in Friends Net for 3 years</li>
+                <li>Training in IBM Partner Center as MCSA for 5 months</li>
+                <li>Worked as Quality Assurance (QA) in Ministry of Communication & Information Technology (MCIT) from 12/2007 till 8/2009</li>
+                <li>Working as Technical support and Network Administrator and Software Control at Al-Babtain Power & Telecom – Egypt from 12/2009 till now</li>
+            </ul>
+        </div>
+
+        <div id="OtherSkills" class="tabcontent">
+            <h1 class="heads">Other Skills</h1>
+            <ul>
+                <li>Adobe PhotoShop CC</li>
+                <li>Adobe illustrator CC</li>
+                <li>Adobe InDesign CC</li>
+                <li>Autodesk AutoCAD LT 2015</li>
+            </ul>
+        </div>
+
+        <div id="MyDes" class="tabcontent">
+            <img src="images\cards1.png" width="250" height="70" onmouseover="showbig(this);" onmouseout="showsmall(this);">
+            <img src="images\cards2.png" width="250" height="70" onmouseover="showbig(this);" onmouseout="showsmall(this);">
+            <img src="images\kids1.jpg" width="250" height="70" onmouseover="showbig(this);" onmouseout="showsmall(this);">
+            <img src="images\kids2.jpg" width="250" height="70" onmouseover="showbig(this);" onmouseout="showsmall(this);">
+            <img src="images\LOGO.jpg" width="250" height="70" onmouseover="showbig(this);" onmouseout="showsmall(this);">
+            <img src="images\MOSCD.jpg" width="250" height="70" onmouseover="showbig(this);" onmouseout="showsmall(this);">
+        </div>
+
+        <div id="Study" class="tabcontent">
+            <h1 class="heads">Current Study</h1>
+            <h2>Web Designing:</h2>
+            <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Scribt</li>
+            </ul>
+        </div>
+
+        <div id="MyProj" class="tabcontent">
+            <h1 class="heads">My Web Design Projects</h1>
+            <ul>
+                <li><a href="links\CSS Practice.html" target="_blank">This was my First page (HTML & CSS Practice)</a></li>
+                <li><a href="links\marie laurent.html" target="_blank">Second Practice for HTML & CSS</a></li>
+                <li><a href="links\JS practice.html" target="_blank">This was my first practice for Java Script</a></li>
+            </ul>
+        </div>
+
+        <div id="Contacts" class="tabcontent">
+            <h1 class="heads">Contacts</h1>
+            <table>
+                <tr>
+                <td><a href="https://www.facebook.com/tamer.tolbah" target="_blank"><img src="images\Facebook.png" width="50" onmouseover="big(this);" onmouseout="small(this);"></a></td>
+                <td><a href="https://twitter.com/Mo78Te" target="_blank"><img src="images\Twitter.png" width="50" onmouseover="big(this);" onmouseout="small(this);"></a></td>
+                <td><a href="https://join.skype.com/invite/f6HRKCA75Dkc" target="_blank"><img src="images\Skype.png" width="50" onmouseover="big(this);" onmouseout="small(this);"></a></td>
+                </tr>
+                <tr>
+                <td>Facebook</td>
+                <td>Twitter</td>
+                <td>Skype</td>
+                </tr>
+                <tr>
+                <td><a href="https://hangouts.google.com/?hl=ar" target="_blank"><img src="images\Hangouts.png" width="50" onmouseover="big(this);" onmouseout="small(this);"/><br></a></td>
+                <td><img src="images\Mobile.png" width="50" onmouseover="big(this);" onmouseout="small(this);"></td>
+                <td><img src="images\Email.png" width="50" onmouseover="big(this);" onmouseout="small(this);"></td>
+                </tr>
+                <tr>
+                <td>Hangouts</td>
+                <td>01005899858</td>
+                <td>tamer_tolbah@yahoo.com</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script>document.getElementById("defaultOpen").click();</script>
+</body>
+</html>
